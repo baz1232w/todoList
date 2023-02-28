@@ -1,0 +1,63 @@
+.MainContainer{
+    border-right: 2px solid deepskyblue;
+    border-left: 2px solid deepskyblue ;
+    padding: 20px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    gap:20px;
+    background-color: rgba(225,225,255,.6);
+    margin: 5px 0px;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+
+
+.todo button{
+    font-size: 13px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+    margin-left: 5px;
+}
+
+.todo button:hover{
+    cursor: pointer;
+}
+
+.complete{
+    text-decoration: line-through;
+}
+
+input{
+    padding: 5px;
+    border: 2px solid deepskyblue;
+    outline: none;
+    border-radius: 10px;
+}
+
+.mainBtn{
+    background-color: deepskyblue;
+    border: 2px solid deepskyblue;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+}
+
+.mainBtn:hover{
+    background-color: #fff;
+    color: deepskyblue;
+}
+
